@@ -18,8 +18,8 @@
     <occluded>occluded</occluded>
     <bndbox>
       <xmin>3</xmin>
-      <xmax>33</xmax>
       <ymin>3</ymin>
+      <xmax>33</xmax>
       <ymax>33</ymax>
     </bndbox>
   </object>
@@ -30,8 +30,8 @@
     <occluded>occluded</occluded>
     <bndbox>
       <xmin>3</xmin>
-      <xmax>33</xmax>
       <ymin>3</ymin>
+      <xmax>33</xmax>
       <ymax>33</ymax>
     </bndbox>
   </object>
