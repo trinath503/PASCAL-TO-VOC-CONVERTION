@@ -9,7 +9,7 @@ pascal_voc_data = '''
                                             "source":{"database":"database"},
                                             "size":{"width":256,"height":256,"depth":3},
                                             "segmented":0,
-                                            "objects":[{"name":"name","pose":"pose","truncated":"truncated","occluded":"occluded","bndbox":{"xmin":3,"ymin":3,"xmax":33,"ymax":33}},{"name":"name","pose":"pose","truncated":"truncated","occluded":"occluded","bndbox":{"xmin":3,"ymin":3,"xmax":33,"ymax":33}}]
+                                            "objects":[{"name":"name","pose":"pose","truncated":"0","difficult":0,"occluded":"occluded","bndbox":{"xmin":3,"ymin":3,"xmax":33,"ymax":33}},{"name":"name","pose":"pose","truncated":"0","difficult":0,"occluded":"occluded","bndbox":{"xmin":3,"ymin":3,"xmax":33,"ymax":33}}]
 
                                         },
                                         {
@@ -19,7 +19,7 @@ pascal_voc_data = '''
                                             "source":{"database":"database"},
                                             "size":{"width":256,"height":256,"depth":3},
                                             "segmented":0,
-                                            "objects":[{"name":"name","pose":"pose","truncated":"truncated","occluded":"occluded","bndbox":{"xmin":3,"ymin":3,"xmax":33,"ymax":33}},{"name":"name","pose":"pose","truncated":"truncated","occluded":"occluded","bndbox":{"xmin":3,"ymin":3,"xmax":33,"ymax":33}}]
+                                            "objects":[{"name":"name","pose":"pose","truncated":"0","difficult":0,"occluded":"occluded","bndbox":{"xmin":3,"ymin":3,"xmax":33,"ymax":33}},{"name":"name","pose":"pose","truncated":"0","difficult":0,"occluded":"occluded","bndbox":{"xmin":3,"ymin":3,"xmax":33,"ymax":33}}]
                                         }
                     ]
 
