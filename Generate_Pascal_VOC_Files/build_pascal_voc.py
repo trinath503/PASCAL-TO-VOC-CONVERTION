@@ -83,6 +83,8 @@ def create_pascal_voc_file(get_folder, get_filename, get_path, get_database, get
             pose.text = str(each_object["pose"])
             truncated = ET.SubElement(object, "truncated")
             truncated.text = str(each_object["truncated"])
+            difficult = ET.SubElement(object, "difficult")
+            difficult.text = str(each_object["difficult"])
             occluded = ET.SubElement(object, "occluded")
             occluded.text = str(each_object["occluded"])
             bndbox = ET.SubElement(object, "bndbox")
