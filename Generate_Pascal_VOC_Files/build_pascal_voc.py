@@ -67,9 +67,9 @@ def create_pascal_voc_file(get_folder, get_filename, get_path, get_database, get
         '''Getting the image properties of width, height, depth'''
         size = ET.SubElement(voc_xml, "size")
         width = ET.SubElement(size, "width")
-        width.text = str(get_height)
+        width.text = str(get_width)
         height = ET.SubElement(size, "height")
-        height.text = str(get_width)
+        height.text = str(get_height)
         depth = ET.SubElement(size, "depth")
         depth.text = str(get_depth)
         segmented = ET.SubElement(voc_xml, "segmented")
